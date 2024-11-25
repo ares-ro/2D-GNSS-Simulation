@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class SatelliteSignal : MonoBehaviour
 {
+    public string satelliteName;
     public float satellitePosX;
     public float satellitePosY;
     public long time;
