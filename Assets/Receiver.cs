@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Receiver : MonoBehaviour
 {
+    public Camera mainCamera;
+
     long receiverTime = 0;
 
     void Start()

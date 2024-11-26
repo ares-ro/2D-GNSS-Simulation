@@ -27,11 +27,10 @@ public class SatelliteScript : MonoBehaviour
 
         GameObject go = Instantiate(signal, gameObject.transform);
 
-        go.GetComponent<SatelliteSignal>().satelliteName = "sat1";
+        go.GetComponent<SatelliteSignal>().satelliteName = gameObject.name;
         go.GetComponent<SatelliteSignal>().satellitePosX = gameObject.transform.position.x;
         go.GetComponent<SatelliteSignal>().satellitePosY = gameObject.transform.position.y;
         //모든 위성의 시간 동기화 완료
         go.GetComponent<SatelliteSignal>().time = Time.GetTime();
-        UnityEngine.Debug.Log(Time.GetTime());
     }
 }

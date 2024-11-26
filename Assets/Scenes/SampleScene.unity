@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 63353465}
   - component: {fileID: 63353464}
   m_Layer: 5
-  m_Name: satellite (1)
+  m_Name: satellite2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,6 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94ab88b0c2c91a468d8d81d01f16a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 519420031}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,7 +676,7 @@ GameObject:
   - component: {fileID: 1041639996}
   - component: {fileID: 1041639995}
   m_Layer: 5
-  m_Name: satellite (2)
+  m_Name: satellite3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -764,12 +765,12 @@ GameObject:
   - component: {fileID: 1120336248}
   - component: {fileID: 1120336250}
   m_Layer: 5
-  m_Name: satellite
+  m_Name: satellite1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1120336247
 RectTransform:
   m_ObjectHideFlags: 0
